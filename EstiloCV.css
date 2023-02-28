@@ -1,0 +1,166 @@
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 60px 0px;
+}
+#titulo {
+  padding: 20px 0px;
+}
+
+.head{
+  padding: 0px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+flex-direction: column;
+}
+:root {
+  scroll-behavior: smooth;
+}
+.iconodemenu {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  background: white;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 10%;
+  box-shadow: grey;
+}
+.menudenavegacion {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 20vw;
+  height: 100%;
+  background-image: url(geometric-leaves.webp);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: transform .3s ease-in-out;
+  box-shadow: 0 0 6px; color: black;
+  transform: translate(150%);
+}
+
+.spread { transform:translate(0%); }
+
+.menudenavegacion a{color: blue;
+text-decoration: none;
+font-family: 'Oswald', sans-serif; font-weight: 500;
+font-size: 20px}
+h1 {color: red ; font-size: 100px; font-family: 'Oswald', sans-serif; font-weight: 900; padding: 10px; text-align: center;}
+.normalizadag{
+  border: 2px solid #ddd;
+  border-radius: ;
+  padding:5px;
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-bottom: 15px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitulo {
+  font-size: 45px;
+  text-align: center;
+  font-weight: 700px;
+  color: red;
+  margin-bottom: 40px;
+  font-family:  'Merriweather' , serif;;
+}
+
+.datospersonales {display:flex;
+  justify-content: space-evenly;
+  align-items:center;
+  flex-wrap: wrap;}
+.informacionpersonal {
+  width: 50%;
+}
+
+.fotoinicial {
+   width: 40%;
+}
+
+.Formación { 
+  display:flex;
+  justify-content: space-evenly;
+  align-items:center;
+  flex-wrap: wrap; }
+.imagendeformacion {
+  width: 50%;
+ 
+}
+.datitos {
+  width: 30%;
+}
+
+.contenedorgaleria {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Laboral {  display:flex;
+  justify-content: space-evenly;
+  align-items:center;
+  flex-wrap: wrap;
+}
+.imagendelaboral {
+  width: 50%;
+ 
+}
+.datosdetrabajos {
+   width: 30%;
+}
+
+.capacidad {
+  display:flex;
+  justify-content: space-evenly;
+  align-items:center;
+  flex-wrap: wrap;
+}
+.imagendehabilidades {
+   width: 50%;
+}
+.datosdehabilidades {
+     width: 30%;
+}
+
+
+footer {
+   background-color: ;
+  padding-bottom: 0.1px;
+  
+}
+
+.contacto {display:flex;
+  justify-content: space-evenly;
+  align-items:center;
+  flex-wrap: wrap;}
+.datosdecontacto{
+width: 30%;
+
+}
+
+.imagendecontacto { 
+  width: 50%;}
+
+body {
+  background-image: url(circle-blues.webp);
+
+
+}
+
+#amarillo  {color: yellow;}
+
+li {color: white; font-size: 18px; font-family: 'Merriweather' , serif; font-weight: 300;}
+p {color: white; font-size: 20px; font-family: 'Merriweather' , serif; font-weight: 300; text-align: justify-all;}
+
+h3 {color: yellow; font-size: 25px; font-family: 'Merriweather', serif; font-weight: 500; }
